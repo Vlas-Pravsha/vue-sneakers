@@ -17,7 +17,7 @@ defineProps({
         <img v-if="onClickFavorite" :src="!isFavorite ? '/like-1.svg' : '/like-2.svg'" alt="Like 1"
             class="absolute top-8 left-8 w-12 h-12" @click="onClickFavorite" />
 
-        <img :src="imageUrl" alt="Sneaker" class="w-100 h-80 " />
+        <img :src="imageUrl" alt="Sneaker" class="w-80 h-60 " />
 
         <p class="mt-2">{{ title }}</p>
 
