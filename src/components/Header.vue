@@ -13,7 +13,7 @@ const emit = defineEmits(['openDrawer'])
         <img src="/logo.png" alt="Logo" class="w-10" />
         <div>
           <h2 class="text-xl font-bold uppercase">Vue Sneakers Git</h2>
-          <p class="text-slate-400">Магазин лучших кроссовок</p>
+          <p class="text-slate-400">Магазин кращих кросівок(Потрібен vpn)</p>
         </div>
       </div></router-link
     >
@@ -36,7 +36,7 @@ const emit = defineEmits(['openDrawer'])
 
       <li class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black">
         <img src="/profile.svg" alt="Cart" />
-        <span>Профиль</span>
+        <span>Профіль</span>
       </li>
     </ul>
   </header>
